@@ -1,0 +1,73 @@
+.parentTop{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 100px;
+    padding-left: 300px;
+}
+
+.gridTop{
+    border-color: "#f44336";
+    border: '1px solid red';
+    display: flex;
+    flex-direction: column;
+    font-family: "Comic Sans MS", cursive, sans-serif;;
+}
+
+.lightBackground {
+    background-color:yellow;
+}
+
+.columnsStyle {
+    display: flex;
+    flex-direction: column;
+}
+
+.rowStyle {
+    display: flex;
+}
+
+.darkBackground {
+    background-color: F0FFFF
+}
+
+.box {
+    width: 100;
+    height: 100;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:yellow;
+    border-radius: 20px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.cross{
+    color:rgb(0, 0, 0);
+    font-size: 2.5em;
+    border-radius: 5px;
+    line-height: 100px;
+}
+.button:hover {
+    background-color: rgb(114, 223, 25)
+    
+}
+.button {
+    background-color: yellow;
+    border: none;
+    color: black;
+    text-align: center;
+    display: inline-block;
+    font-size: 25px;
+    margin-left: 200px;
+    cursor: pointer;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+  }
